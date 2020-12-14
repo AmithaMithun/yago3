@@ -73,7 +73,7 @@ public class WikidataEntityDescriptionExtractor extends DataExtractor {
 
   @Override
   public Set<Theme> output() {
-    return (new FinalSet<>(WIKIDATAENTITYDESCRIPTIONSNEEDSTYPECHECK));
+    return (new FinalSet<>(WIKIDATAENTITYDESCRIPTIONSNEEDSTYPECHECK, WIKIDATAENTITYDESCRIPTIONS));
   }
 
   @Override

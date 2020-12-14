@@ -25,6 +25,7 @@ import extractors.MultilingualExtractor;
 import followUp.FollowUpExtractor;
 import followUp.TypeChecker;
 import fromWikipedia.CategoryExtractor;
+import javatools.datatypes.FinalSet;
 import utils.MultilingualTheme;
 import utils.Theme;
 
@@ -58,7 +59,7 @@ public class CategoryConteXtExtractor extends MultilingualExtractor {
 
   @Override
   public Set<Theme> output() {
-    return new HashSet<>();
+    return new FinalSet<Theme>(CATEGORY_CONTEXT.inLanguage(language));
   }
 
   @Override

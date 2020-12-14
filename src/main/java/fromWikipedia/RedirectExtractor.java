@@ -81,7 +81,7 @@ public class RedirectExtractor extends MultilingualWikipediaExtractor {
 
   @Override
   public Set<Theme> output() {
-    return new FinalSet<Theme>(REDIRECT_FACTS_DIRTY.inLanguage(this.language));
+    return new FinalSet<Theme>(REDIRECT_FACTS_DIRTY.inLanguage(this.language), REDIRECTFACTS.inLanguage(this.language));
   }
 
   @Override

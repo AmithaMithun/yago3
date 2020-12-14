@@ -59,7 +59,7 @@ public class CategoryTranslator extends EntityTranslator {
 
   public static void main(String[] args) throws Exception {
     Theme res = new Theme("categoryMembersTranslated_de", "");
-    new CategoryTranslator(CategoryExtractor.CATEGORYMEMBERS.inLanguage("de"), res, null).extract(new File("c:/fabian/data/yago3"), "test");
+    new CategoryTranslator(CategoryExtractor.CATEGORYMEMBERS.inLanguage("de"), res, null).extract(new File("D:/yago3"), "test");
   }
 
 }

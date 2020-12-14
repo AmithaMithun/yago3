@@ -102,10 +102,10 @@ public class WikipediaEntityDescriptionExtractor extends MultilingualWikipediaEx
   @Override
   public Set<Theme> output() {
     if (isEnglish()) {
-      return (new FinalSet<>(WIKIPEDIAENTITYDESCRIPTIONSNEEDSTYPECHECKANDREDIRECTION.inLanguage(language)));
+      return (new FinalSet<>(WIKIPEDIAENTITYDESCRIPTIONSNEEDSTYPECHECKANDREDIRECTION.inLanguage(language), WIKIPEDIAENTITYDESCRIPTIONS.inLanguage(language)));
     }
     else {
-      return (new FinalSet<>(WIKIPEDIAENTITYDESCRIPTIONSNEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language)));
+      return (new FinalSet<>(WIKIPEDIAENTITYDESCRIPTIONSNEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language), WIKIPEDIAENTITYDESCRIPTIONS.inLanguage(language)));
     }
   }
   

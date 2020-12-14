@@ -14,7 +14,7 @@ else
 fi
 
 # Fill in the variables
-wp_dumps_dir="${args[0]}" 
+wp_dumps_dir="${args[0]}"
 wp_dump_download_links=("${args[@]:1}")
 
 # Get the Wikipedia dumps, process one dump after the other.

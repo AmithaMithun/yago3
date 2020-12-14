@@ -152,7 +152,7 @@ public class InfoboxTypeExtractor extends MultilingualExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new InfoboxTypeExtractor("en").extract(new File("c:/fabian/data/yago3"), "Test");
+    new InfoboxTypeExtractor("en").extract(new File("D:/yago3"), "Test");
   }
 
 }

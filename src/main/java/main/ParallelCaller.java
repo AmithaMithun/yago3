@@ -447,11 +447,11 @@ public class ParallelCaller {
 
   /** Run */
   public static void main(String[] args) throws Exception {
-    String initFile = args.length == 0 ? "../yago.ini" : args[0];
+    String initFile = args.length == 0 ? "../yago_aida_createAidaRepositoryConfiguration.ini.adapted.ini" : args[0];
     D.p("Initializing from", initFile);
     Parameters.init(initFile);
     simulate = Parameters.getBoolean("simulate", false);
-    rerunDependentExtractors = Parameters.getBoolean("rerunDependent", false);
+    rerunDependentExtractors = Parameters.getBoolean("rerunDependent", true);
     List<Pattern> rerunDependentOn = new ArrayList<>();
     List<String> rerunDependentOnRegex = Parameters.getList("rerunDependentOn");
     if (rerunDependentOnRegex != null) {
@@ -493,12 +493,14 @@ public class ParallelCaller {
       Extractor e = extractorsToDo.get(i);
       if (e != null && !extractorDependencies.containsKey(e)) {
         extractorDependencies.computeIfAbsent(e, k -> new HashSet<>());
+        System.out.println(e.input());
         for (Theme t : e.input()) {
           Extractor eForTheme = theme2extractor.get(t);
           extractorDependencies.get(e).add(eForTheme);
           extractorsToDo.add(eForTheme);
         }
         e.output();
+        System.out.println(e.output());
         baseExtractor2FollowUp.getOrDefault(e, Arrays.asList()).forEach(fe -> extractorsToDo.add(fe));
       }
     }

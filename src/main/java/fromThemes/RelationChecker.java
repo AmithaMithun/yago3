@@ -82,7 +82,7 @@ public class RelationChecker extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new HardExtractor(new File("../basics2s/data")).extract(new File("c:/fabian/data/yago2s"), "check");
-    new RelationChecker().extract(new File("c:/fabian/data/yago2s"), "check");
+    new HardExtractor(new File("../basics2s/data")).extract(new File("D:/yago3"), "check");
+    new RelationChecker().extract(new File("D:/yago3"), "check");
   }
 }

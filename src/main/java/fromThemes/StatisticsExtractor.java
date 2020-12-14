@@ -112,6 +112,6 @@ public class StatisticsExtractor extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new StatisticsExtractor().extract(new File("c:/fabian/data/yago2s"), "test");
+    new StatisticsExtractor().extract(new File("D:/yago3"), "test");
   }
 }

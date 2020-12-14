@@ -133,6 +133,6 @@ public class WordnetDomainExtractor extends DataExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new WordnetDomainExtractor().extract(new File("c:/fabian/data/yago3"), "test");
+    new WordnetDomainExtractor().extract(new File("D:/yago3"), "test");
   }
 }

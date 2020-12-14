@@ -291,6 +291,6 @@ public class GeoNamesClassMapper extends DataExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new GeoNamesClassMapper().extract(new File("c:/fabian/data/yago3"), "");
+    new GeoNamesClassMapper().extract(new File("D:/yago3"), "");
   }
 }

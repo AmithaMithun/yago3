@@ -68,6 +68,6 @@ public class ClassExtractor extends SimpleDeduplicator {
   }
 
   public static void main(String[] args) throws Exception {
-    new ClassExtractor().extract(new File("c:/fabian/data/yago2s"), "test");
+    new ClassExtractor().extract(new File("D:/yago3"), "test");
   }
 }

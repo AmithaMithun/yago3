@@ -167,6 +167,6 @@ public class GenderNameExtractor extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new GenderNameExtractor().extract(new File("c:/fabian/data/yago3"), "test");
+    new GenderNameExtractor().extract(new File("D:/yago3"), "test");
   }
 }

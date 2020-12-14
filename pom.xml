@@ -46,7 +46,7 @@
 					<mainClass>main.ParallelCaller</mainClass>
 					<executable>java</executable>
 					<arguments>
-						<argument>configuration/yago.ini</argument>
+						<argument>configuration/yago_aida_createAidaRepositoryConfiguration.ini.adapted</argument>
 					</arguments>
 					<outputFile>yago.log</outputFile>
 				</configuration>

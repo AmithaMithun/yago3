@@ -92,7 +92,7 @@ public class WikidataImageExtractor extends DataExtractor {
 
 	@Override
 	public Set<Theme> output() {
-		return (new FinalSet<>(WIKIDATAIMAGESNEEDSTYPECHECK));
+		return (new FinalSet<>(WIKIDATAIMAGESNEEDSTYPECHECK, WIKIDATAIMAGES));
 	}
 	
   @Override

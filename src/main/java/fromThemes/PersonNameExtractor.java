@@ -127,6 +127,6 @@ public class PersonNameExtractor extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new PersonNameExtractor().extract(new File("c:/fabian/data/yago2s"), "test");
+    new PersonNameExtractor().extract(new File("D:/yago3"), "test");
   }
 }

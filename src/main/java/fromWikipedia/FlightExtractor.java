@@ -134,6 +134,6 @@ public class FlightExtractor extends EnglishWikipediaExtractor {
     // new FlightExtractor(new
     // File("./testCases/fromWikipedia.FlightExtractor/flightTest.xml")).extract(new
     // File("c:/fabian/data/yago2s"),"test");
-    new FlightExtractor(new File("c:/fabian/data/wikipedia/testset/la_airport2.xml")).extract(new File("c:/fabian/data/yago2s"), "test");
+    new FlightExtractor(new File("c:/fabian/data/wikipedia/testset/la_airport2.xml")).extract(new File("D:/yago3"), "test");
   }
 }

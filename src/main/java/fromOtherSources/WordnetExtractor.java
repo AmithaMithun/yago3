@@ -195,6 +195,6 @@ public class WordnetExtractor extends DataExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new WordnetExtractor().extract(new File("c:/fabian/data/yago3"), ParallelCaller.header);
+    new WordnetExtractor().extract(new File("D:/yago3"), ParallelCaller.header);
   }
 }

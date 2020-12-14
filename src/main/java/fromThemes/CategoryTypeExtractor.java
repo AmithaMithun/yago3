@@ -92,7 +92,7 @@ public class CategoryTypeExtractor extends MultilingualExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new CategoryTypeExtractor("en").extract(new File("c:/fabian/data/yago3"), "Test");
+    new CategoryTypeExtractor("en").extract(new File("D:/yago3"), "Test");
   }
 
 }

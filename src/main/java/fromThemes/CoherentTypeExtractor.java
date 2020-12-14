@@ -178,6 +178,6 @@ public class CoherentTypeExtractor extends Extractor {
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
     MultilingualExtractor.wikipediaLanguages = Arrays.asList("en");
-    new CoherentTypeExtractor().extract(new File("c:/fabian/data/yago3"), "test");
+    new CoherentTypeExtractor().extract(new File("D:/yago3"), "test");
   }
 }

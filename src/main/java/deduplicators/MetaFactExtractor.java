@@ -63,7 +63,7 @@ public class MetaFactExtractor extends SimpleDeduplicator {
 
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
-    new MetaFactExtractor().extract(new File("C:/fabian/data/yago2s"), "test");
+    new MetaFactExtractor().extract(new File("D:/yago3"), "test");
   }
 
   @Override

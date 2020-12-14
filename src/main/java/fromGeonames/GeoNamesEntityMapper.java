@@ -103,6 +103,6 @@ public class GeoNamesEntityMapper extends DataExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new GeoNamesEntityMapper().extract(new File("c:/fabian/data/yago3"), "");
+    new GeoNamesEntityMapper().extract(new File("D:/yago3"), "");
   }
 }

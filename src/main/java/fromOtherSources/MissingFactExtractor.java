@@ -91,6 +91,6 @@ public class MissingFactExtractor extends DataExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new MissingFactExtractor(new File("c:/Fabian/temp/oldYago")).extract(new File("c:/Fabian/data/yago2s"), "test");
+    new MissingFactExtractor(new File("c:/Fabian/temp/oldYago")).extract(new File("D:/yago3"), "test");
   }
 }

@@ -93,6 +93,6 @@ public class DBpediaLinker extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new DBpediaLinker().extract(new File("c:/fabian/data/yago3"), "test");
+    new DBpediaLinker().extract(new File("D:/yago3"), "test");
   }
 }

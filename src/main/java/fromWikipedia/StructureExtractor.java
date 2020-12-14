@@ -115,7 +115,7 @@ public class StructureExtractor extends MultilingualWikipediaExtractor {
 
   @Override
   public Set<Theme> output() {
-    return new FinalSet<Theme>(DIRTYSTRUCTUREFACTS.inLanguage(language));
+    return new FinalSet<Theme>(DIRTYSTRUCTUREFACTS.inLanguage(language), STRUCTUREFACTS.inLanguage(language) );
   }
 
   @Override

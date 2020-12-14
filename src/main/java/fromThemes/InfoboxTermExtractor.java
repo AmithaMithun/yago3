@@ -134,7 +134,7 @@ public class InfoboxTermExtractor extends MultilingualExtractor {
 
   public static void main(String[] args) throws Exception {
     InfoboxTermExtractor extractor = new InfoboxTermExtractor("en");
-    extractor.extract(new File("c:/fabian/data/yago3"), "mapping infobox attributes into infobox facts");
+    extractor.extract(new File("D:/yago3"), "mapping infobox attributes into infobox facts");
   }
 
 }

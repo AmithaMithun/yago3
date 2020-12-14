@@ -95,7 +95,7 @@ public class DisambiguationPageExtractor extends MultilingualWikipediaExtractor 
 
   @Override
   public Set<Theme> output() {
-    return new FinalSet<>(DIRTYDISAMBIGUATIONMEANSFACTS.inLanguage(language));
+    return new FinalSet<>(DIRTYDISAMBIGUATIONMEANSFACTS.inLanguage(language),DISAMBIGUATIONMEANSFACTS.inLanguage(language));
   }
 
   @Override

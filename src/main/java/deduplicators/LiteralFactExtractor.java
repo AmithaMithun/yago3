@@ -88,7 +88,7 @@ public class LiteralFactExtractor extends SimpleDeduplicator {
 
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
-    new LiteralFactExtractor().extract(new File("C:/fabian/data/yago2s"), "test");
+    new LiteralFactExtractor().extract(new File("D:/yago3"), "test");
   }
 
   @Override

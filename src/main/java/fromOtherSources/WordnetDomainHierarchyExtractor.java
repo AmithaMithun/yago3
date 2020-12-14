@@ -64,6 +64,6 @@ public class WordnetDomainHierarchyExtractor extends HardExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new WordnetDomainHierarchyExtractor(new File("./data")).extract(new File("c:/fabian/data/yago2s"), "test");
+    new WordnetDomainHierarchyExtractor(new File("./data")).extract(new File("D:/yago3"), "test");
   }
 }

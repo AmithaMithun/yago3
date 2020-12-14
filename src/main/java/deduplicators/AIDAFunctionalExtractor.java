@@ -105,7 +105,7 @@ public class AIDAFunctionalExtractor extends SimpleDeduplicator {
 
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
-    new AIDAFunctionalExtractor().extract(new File("C:/fabian/data/yago3"), "test");
+    new AIDAFunctionalExtractor().extract(new File("D:/yago3/data"), "test");
   }
 
 }

@@ -113,7 +113,7 @@ public class AIDAOneShotExtractor extends SimpleDeduplicator {
 
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
-    new AIDAOneShotExtractor().extract(new File("C:/fabian/data/yago3"), "test");
+    new AIDAOneShotExtractor().extract(new File("D:/yago3"), "test");
   }
 
 }

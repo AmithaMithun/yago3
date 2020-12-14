@@ -75,9 +75,9 @@ public class WikiInfoExtractor extends MultilingualWikipediaExtractor {
   @Override
   public Set<Theme> output() {
     if (isEnglish()) {
-      return new FinalSet<>(WIKIINFONEEDSTYPECHECKANDREDIRECTION.inLanguage(language));
+      return new FinalSet<>(WIKIINFONEEDSTYPECHECKANDREDIRECTION.inLanguage(language), WIKIINFO.inLanguage(language));
     } else {
-      return new FinalSet<>(WIKIINFONEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language));
+      return new FinalSet<>(WIKIINFONEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language), WIKIINFO.inLanguage(language));
     }
   }
 

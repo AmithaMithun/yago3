@@ -101,9 +101,9 @@ public class ConteXtExtractor extends MultilingualWikipediaExtractor {
   @Override
   public Set<Theme> output() {
     if (isEnglish()) {
-      return new FinalSet<Theme>(CONTEXTFACTSNEEDSTYPECHECKANDREDIRECTION.inLanguage(language));
+      return new FinalSet<Theme>(CONTEXTFACTSNEEDSTYPECHECKANDREDIRECTION.inLanguage(language), CONTEXTFACTS.inLanguage(language));
     } else {
-      return new FinalSet<Theme>(CONTEXTFACTSNEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language));
+      return new FinalSet<Theme>(CONTEXTFACTSNEEDSTYPECHECKANDTRANSLATIONANDREDIRECTION.inLanguage(language), CONTEXTFACTS.inLanguage(language));
     }
   }
 

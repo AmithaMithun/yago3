@@ -80,8 +80,8 @@ public class RuleExtractor extends BaseRuleExtractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new PatternHardExtractor(new File("./data")).extract(new File("c:/fabian/data/yago2s"), "test");
+    new PatternHardExtractor(new File("./data")).extract(new File("D:/yago3"), "test");
     Announce.setLevel(Announce.Level.DEBUG);
-    new RuleExtractor().extract(new File("c:/fabian/data/yago2s"), "test");
+    new RuleExtractor().extract(new File("D:/yago3"), "test");
   }
 }

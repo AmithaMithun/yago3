@@ -161,6 +161,6 @@ public class GenderExtractor extends MultilingualWikipediaExtractor {
 
   public static void main(String[] args) throws Exception {
     Announce.setLevel(Announce.Level.DEBUG);
-    new GenderExtractor("de", new File("c:/fabian/data/wikipedia/wikitest_de.xml")).extract(new File("c:/fabian/data/yago3"), "test");
+    new GenderExtractor("de", new File("c:/fabian/data/wikipedia/wikitest_de.xml")).extract(new File("D:/yago3"), "test");
   }
 }

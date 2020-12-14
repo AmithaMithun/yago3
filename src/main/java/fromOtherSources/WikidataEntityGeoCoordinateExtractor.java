@@ -77,7 +77,7 @@ public class WikidataEntityGeoCoordinateExtractor extends DataExtractor {
 
   @Override
   public Set<Theme> output() {
-    return (new FinalSet<>(WIKIDATAENTITYGEOCOORDINATESNEEDSTYPECHECK));
+    return (new FinalSet<>(WIKIDATAENTITYGEOCOORDINATESNEEDSTYPECHECK, WIKIDATAENTITYGEOCOORDINATES));
   }
   
   @Override

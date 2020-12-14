@@ -169,7 +169,7 @@ public class CategoryClassExtractor extends Extractor {
   }
 
   public static void main(String[] args) throws Exception {
-    new CategoryClassExtractor().extract(new File("c:/fabian/data/yago3"), "Test");
+    new CategoryClassExtractor().extract(new File("D:/yago3"), "Test");
   }
 
 }
